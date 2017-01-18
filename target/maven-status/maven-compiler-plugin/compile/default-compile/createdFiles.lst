@@ -1,0 +1,7 @@
+com/alchemy/language/model/AlchemyData.class
+com/alchemy/language/service/AlchemyLanguageService.class
+com/alchemy/language/model/AlchemyLanguageResult.class
+com/language/controller/AlchemyDataController.class
+com/alchemy/language/model/Text.class
+com/language/controller/LanguageController.class
+com/language/controller/SpringBootWebApplication.class
