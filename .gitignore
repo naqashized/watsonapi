@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/vcs.xml
+src/test/
+target/alchemyapi-1.0/META-INF/
+target/generated-sources/

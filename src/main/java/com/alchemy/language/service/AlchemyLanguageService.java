@@ -54,7 +54,7 @@ public class AlchemyLanguageService {
         Dates dates = service.getDates(params).execute();
         results.setDates(dates);
         System.out.println("concepts: " + relations);
-        
+
 
 
         return results;
