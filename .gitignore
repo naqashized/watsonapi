@@ -4,3 +4,5 @@
 src/test/
 target/alchemyapi-1.0/META-INF/
 target/generated-sources/
+target/
+.idea/
