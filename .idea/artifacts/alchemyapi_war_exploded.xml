@@ -1,16 +1,14 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="alchemyapi:war exploded">
-    <output-path>$PROJECT_DIR$/target/alchemyapi-1.0</output-path>
+    <output-path>$PROJECT_DIR$/target/watsonapi-1.0</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="alchemyapi" />
+          <element id="module-output" name="watsonapi" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:1.4.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:1.4.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:1.4.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.4.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.4.2.RELEASE" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.7" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.7" />
@@ -33,6 +31,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:springloaded:1.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: org.webjars:bootstrap:3.3.7" />
           <element id="library" level="project" name="Maven: org.webjars:jquery:1.11.1" />
@@ -44,13 +43,18 @@
           <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp-urlconnection:3.3.1" />
           <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.7" />
           <element id="library" level="project" name="Maven: org.glassfish.jersey.bundles.repackaged:jersey-jsr166e:2.22.2" />
+          <element id="library" level="project" name="Maven: com.ibm.watson.developer_cloud:text-to-speech:3.5.3" />
+          <element id="library" level="project" name="Maven: com.ibm.watson.developer_cloud:speech-to-text:3.5.3" />
+          <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp-ws:3.3.1" />
           <element id="library" level="project" name="Maven: org.json:json:20141113" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:1.4.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.4.2.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/alchemyapi-1.0/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/watsonapi-1.0/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="alchemyapi/web/Web" />
+      <element id="javaee-facet-resources" facet="watsonapi/web/Web" />
     </root>
   </artifact>
 </component>

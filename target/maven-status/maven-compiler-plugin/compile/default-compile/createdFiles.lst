@@ -1,7 +1,6 @@
-com/alchemy/language/model/AlchemyData.class
-com/alchemy/language/service/AlchemyLanguageService.class
-com/alchemy/language/model/AlchemyLanguageResult.class
-com/language/controller/AlchemyDataController.class
-com/alchemy/language/model/Text.class
-com/language/controller/LanguageController.class
-com/language/controller/SpringBootWebApplication.class
+com/watson/service/WatsonSTTService.class
+com/watson/model/Transcript.class
+com/watson/controller/STTController.class
+com/watson/controller/TTSController.class
+com/watson/service/WatsonTTSService.class
+com/watson/controller/SpringBootWebApplication.class

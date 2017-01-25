@@ -24,11 +24,13 @@
         <processorPath useClasspath="true" />
         <module name="alchemyapi" />
         <module name="spring-boot-web-jsp" />
+        <module name="watsonapi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="alchemyapi" target="1.8" />
       <module name="spring-boot-web-jsp" target="1.8" />
+      <module name="watsonapi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
